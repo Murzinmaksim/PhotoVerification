@@ -2,7 +2,6 @@
 {
     public class ImageMetadataService : IImageMetadataService
     {
-
         public string ProcessMetadata(IEnumerable<MetadataExtractor.Directory> directories)
         {
             //foreach (var directory in directories)

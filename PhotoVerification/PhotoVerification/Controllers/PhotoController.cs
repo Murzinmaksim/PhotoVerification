@@ -57,7 +57,6 @@ namespace PhotoVerification.Controllers
                 TempData["Message"] = $"Ошибка при обработке файла: {ex.Message}";
             }
 
-
             return RedirectToAction("Index", "Home");
         }
     }
